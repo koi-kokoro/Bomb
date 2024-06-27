@@ -22,18 +22,18 @@ public:
 	void set(int);
 	bool setflag();
 };
-void showbomb(Bomb, int);
-void showend(Bomb);
-bool init_bomb(int);
-void init_game();
-void init_g();
-void re_g();
-void win();
-void lose();
-void putall();
-void setbomb();
-int countbomb(int, int);
-bool getbomb(int, int, int&, int&);
-void leftclick_bomb(int, int);
-void openzero(int,int);
+void showbomb(Bomb, int);   			//右边显示剩余雷数
+void showend(Bomb);				//游戏结束显示
+bool init_bomb(int);				//初始化游戏难度
+void init_game();				//游戏初始化
+void init_g();					//界面初始化
+void re_g();					//重开
+void win();					//胜利
+void lose();					//失败
+void putall();					//失败后显示全图
+void setbomb();					//随机放雷	
+int countbomb(int, int);			//数周围的雷
+bool getbomb(int, int, int&, int&);		//判读鼠标按的哪个格子
+void leftclick_bomb(int, int);			//左键点击事件	
+void openzero(int,int);				//自动开零周围的格子
 void checkaround(int, int);
