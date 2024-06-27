@@ -1,4 +1,4 @@
 # Bomb
-homework for the final
+homework for xjtu final
 
 在master里
